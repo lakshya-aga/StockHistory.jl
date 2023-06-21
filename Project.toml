@@ -1,0 +1,13 @@
+name = "EconomicHistory"
+uuid = "17071545-13bf-4d67-8272-8d0e90e1733e"
+authors = ["Lakshya Agarwal"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
