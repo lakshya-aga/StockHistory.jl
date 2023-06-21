@@ -1,5 +1,10 @@
 module EconomicHistory
+using Pkg
+Pkg.instantiate()
 
-# Write your package code here.
+using DataFrames, HTTP, Dates, CSV
+
+export greetEconomicHistory
+include("functions.jl")
 
 end
