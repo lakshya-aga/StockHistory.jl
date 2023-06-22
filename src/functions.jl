@@ -1,5 +1,5 @@
 
-function greet_economicHistory()
+function greet_stockHistory()
     return "Hello EconomicHistory"
 end
 

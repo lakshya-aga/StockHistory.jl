@@ -1,5 +1,5 @@
 
-module EconomicHistory
+module StockHistory
 
 import Pkg;
 Pkg.instantiate();
