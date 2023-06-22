@@ -12,10 +12,18 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [compat]
 julia = "1"
-CSV = " 0.3.0, 0.10.11"
-DataFrames ="1"
-HTTP ="1"
-Dates = "1"
+
+[compat.CSV]
+CSV = "0.5"
+
+[compat.DataFrames]
+DataFrames = "1.2"
+
+[compat.HTTP]
+HTTP = "0.9"
+
+[compat.Dates]
+Dates = "0.8"
 
 
 [extras]
