@@ -14,10 +14,10 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 julia = "1"
 
 [compat.CSV]
-CSV = "0.5"
+CSV = "0.10"
 
 [compat.DataFrames]
-DataFrames = "1.2"
+DataFrames = "1.5"
 
 [compat.HTTP]
 HTTP = "0.9"
